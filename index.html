@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timer</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>     
+    <script src="script.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <h1>TIMER :)</h1>
+
+    <br>
+    <br>
+<div class="banner">
+    
+    <h1><b><div id="timer">00:00:00</div></b></h1>
+    <label class="label">Time in minutes</label>
+    <input id="minutes" type="number" class="val" min="0" placeholder="Enter time"><br>
+    <div class="btn_class">
+        <button type="submit" class="btn" onclick="Start()">Start</button>
+    <button type="submit" class="btn" id="pause-resume" onclick="pause()">Pause</button><br>
+    </div>
+</div>
+</body>
+</html>
